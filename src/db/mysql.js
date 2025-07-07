@@ -1,10 +1,16 @@
 const mysql = require('mysql');
 const config = require('../config');
 
-function todos(tabla){
-    return 'Todos';
+const prueba = {
+    id: 1,
+    nombre: 'juan',
+    edad: 30
 }
 
+function todos(tabla){
+    return prueba;
+}
+    
 function uno(tabla, id){
     
 }
@@ -23,5 +29,3 @@ module.exports = {
     agregar,
     eliminar,
 }
-
-config
